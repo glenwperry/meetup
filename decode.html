@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<body onload="decode()">
+  
+<div id="demo"></div>
+
+<script>
+  
+function decode(string) { 
+  var array = string.split(""); /* Turn string into array */
+  var result = ""; /* Create string for decoded message */
+  var target = 0; /* Initialize target position */
+  
+  for (var i = 0; i < array.length; i++) { /* Run through each element of the array */
+    array[i] = parseInt(array[i]);  /* Convert character into number */
+    
+    if (Number.isInteger(array[i])) { /* If it is an integer, skip forward that many elements in the array */
+      target = i + array[i] + 1;   /* Get the position of the next element in the array */
+
+      if (target < array.length) {  /* Check if you are going beyond the end of the array */
+        result += array[target]; /* Add decoded element to the result */
+      }
+    }
+  }
+  /* return result */
+  document.getElementById("demo").innerHTML = result;
+}
+  
+var myString = "0h2zyi2467";  
+decode(myString);
+  
+  /* EXAMPLE RUN THROUGH 
+  
+‘0h2zyi2467’ would be decoded as ‘hi7’
+    
+array = [0,h,2,z,y,i,2,4,6,7] 
+i = 0;
+result = "";
+target = 0;
+
+========
+
+i = 0;
+target = i + array[i] + 1;
+target = 0 + 0 + 1;
+array[target] = array[1] = h;
+
+result = "h"
+
+=========
+
+i = 1; 
+array[1] = h; 
+Not a number; skip;
+
+=========
+
+i = 2;
+array[2] = 2;
+target = 2 + array[2] + 1 = 2 + 2 + 1 = 5;
+array[5] = i;
+
+result = "hi"
+
+=========
+
+i = 3; array[3] = z Not a number; skip;
+i = 4; array[4] = y Not a number; skip;
+i = 5; array[5] = i Not a number; skip;
+
+==========
+
+i = 6;
+array[6] = 2;
+target = 6 + array[6] + 1 = 6 + 2 + 1 = 9;
+array[9] = 7;
+
+result = "hi7"
+
+==========
+
+i = 7; 
+target = 7 + array[7] + 1 = 7 + 4 + 1 = 12 
+Out of bounds; skip;
+
+==========
+
+
+i = 8; 
+target = 15 
+Out of bounds; skip;
+
+==========
+
+i = 9; 
+target = 17 
+Out of bounds; skip;
+
+end of loop
+
+result = "hi7"
+
+  */
+  
+</script>
+</body>
+</html>
+
