@@ -1,5 +1,4 @@
-## 1. If you would like to be a part of our community accountability project and possibly also take [MOOCs](https://en.wikipedia.org/wiki/Massive_open_online_course) as a small group, please give me your e-mail address so I can invite you to our [IDONETHIS](https://home.idonethis.com) group. Even if you can't participate very much, I encourage you to join because that is where we will be communicating. The design of it is for sharing a few bullet points for things you accomplished every day, and people can cheer you on and comment. I would like to do a monthly roundup of our accomplishments and publish them as a quick blog post on our [website](algorithms-wwc.github.io).
+Please find our weekly meeting notes in the "Issues" tab.
 
-### 2. Joining will also give you access to our [ONENOTE](https://www.onenote.com) shared document that you can edit online (you don't need to download the app) with any suggestions you may have for our group. Right now we have tabs for Resources, To Do, Ideas, and Schedule.
 
-#### 3. If you like, you can also join our Slack, [learntocodela.slack.com](learntocodela.slack.com).
+If you like, you can also join the #algorithms channel in our Slack. Link: [learntocodela.herokuapp.com](learntocodela.herokuapp.com).
