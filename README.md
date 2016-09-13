@@ -14,6 +14,8 @@ http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-int
 
 https://people.eecs.berkeley.edu/~jrs/61b/
 
+https://www.youtube.com/user/cs50tv (one of the CS50 lecture videos had a great part on algorithms!)
+
 ---
 
 http://code.tutsplus.com/tutorials/algorithms-and-data-structures--cms-20437
