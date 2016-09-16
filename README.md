@@ -110,6 +110,10 @@ https://github.com/WomenWhoCode/guidelines-resources/blob/master/learn_to_progra
 
 ### Misc
 
+https://www.reddit.com/r/dailyprogrammer/
+
+http://visualgo.net/
+
 http://pythontutor.com/
 
 https://www.youtube.com/watch?v=8bZh5LMaSmE
