@@ -96,6 +96,8 @@ https://www.sitepoint.com/genetic-algorithms-in-ruby-part-i/
 
 ### Algorithms with JavaScript
 
+http://cdn.tsq.me/ebook/Data%20Structures%20and%20Algorithms%20with%20JavaScript.pdf
+
 ---
 
 ### Algorithms with Java
