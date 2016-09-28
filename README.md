@@ -129,3 +129,5 @@ https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/07356196
 Video: Visualization and "audibilization" of 15 Sorting Algorithms in 6 Minutes: https://www.youtube.com/watch?v=kPRA0W1kECg
 
 Video: Bubble sort shown with an interpretive Hungarian folk dance: https://www.youtube.com/watch?v=lyZQPjUT5B4
+
+Video: CS50 on Asymptotic Notation: https://www.youtube.com/watch?v=iOq5kSKqeR4
